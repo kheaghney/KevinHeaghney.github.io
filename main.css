@@ -104,6 +104,32 @@ header {
   }
  
   /*My Skills*/
+  .contact {
+      text-align:center;
+      padding-bottom:75px;
+  }
+  .emailnumber{
+      color:#141414;
+      font-size:20px;
+  }
+  .buttonPDF {
+      text-align:center;
+      padding-bottom:75px;
+  }
+  .resume {
+      background-color:#01feec;
+      color:white;
+      width:25%;
+      font-size:20px;
+      padding:20px;
+      margin-bottom:40px;
+      text-shadow: 2px 2px #141414;
+      border:2px solid #141414;
+  }
+  .resume:hover {
+      text-decoration:none;
+      color:#b3b3b3;
+  }
   .w3-color {
       background-color:#01feec;
   }
@@ -164,6 +190,15 @@ header {
     font-family:calibri;
     font-size:20px;
     color:white;
+}
+.fa-github{ 
+    padding:5px;
+    font-size:30px !important;
+    padding-top:30px;
+}
+.fa-github:hover{
+    text-decoration:none;
+    color:#b3b3b3;
 }
 .fa-linkedin{ 
     padding:5px;

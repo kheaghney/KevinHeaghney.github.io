@@ -163,6 +163,7 @@ header {
     text-align:center;
     font-family:calibri;
     font-size:20px;
+    color:white;
 }
 .fa-linkedin{ 
     padding:5px;
@@ -208,3 +209,23 @@ header {
      max-width: 100%;
     }
   }
+  @media (max-width:500px){
+      .contactInfo {
+          font-size:12px;
+      }
+  }
+  @media (max-width:500px) {
+      .btmLinks {
+          font-size:12px;
+      }
+  }
+  @media (max-width:500px) {
+    .btmLink {  
+    font-size: 12px;
+  }
+}
+@media (max-width:500px) {
+    .nameTitle {
+        font-size:12px;
+    }
+}

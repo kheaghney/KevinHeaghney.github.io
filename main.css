@@ -87,7 +87,7 @@ header {
   }
 /*Content Style*/
 .parallax {
-    background-image: url("capture.png");
+    background-image: url("image.jpg");
     min-height: 300px; 
     background-attachment: fixed;
     background-position: center;

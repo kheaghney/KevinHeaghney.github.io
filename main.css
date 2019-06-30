@@ -238,28 +238,24 @@ header {
         text-align: center;
     }
 }
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-     max-width: 100%;
-    }
-  }
-  @media (max-width:500px){
+  /* Responsive layout - */
+ 
+  @media (max-width:600px){
       .contactInfo {
           font-size:12px;
       }
   }
-  @media (max-width:500px) {
+  @media (max-width:600px) {
       .btmLinks {
           font-size:12px;
       }
   }
-  @media (max-width:500px) {
+  @media (max-width:600px) {
     .btmLink {  
     font-size: 12px;
   }
 }
-@media (max-width:500px) {
+@media (max-width:600px) {
     .nameTitle {
         font-size:12px;
     }

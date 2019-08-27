@@ -122,6 +122,11 @@ header {
       padding-bottom:75px;
       padding-top:50px;
   }
+  .c3 {
+      margin-right:auto;
+      margin-left:auto;
+      text-align:center;
+  }
   .resume {
       background-color:#01feec;
       color:white;

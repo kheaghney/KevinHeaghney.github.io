@@ -94,6 +94,8 @@ header {
       text-align: center;
       font-family:arial;
       line-height: 1.5;
+      margin-right:auto;
+      margin-left:auto;
   }
 /*Content Style*/
 .parallax {

@@ -89,7 +89,11 @@ header {
       font-family: Arial;
       text-align:center;
       line-height:1.5;
-
+  }
+  pre {
+      text-align:center;
+      font-family:arial;
+      line-height: 1.5;
   }
 /*Content Style*/
 .parallax {

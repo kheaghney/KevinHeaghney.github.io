@@ -85,6 +85,12 @@ header {
       margin-right:auto;
       margin-left:auto;
   }
+  h4 {
+      font-family: Arial;
+      text-align:center;
+      line-height:1.5;
+
+  }
 /*Content Style*/
 .parallax {
     background-image: url("image.jpg");
@@ -102,19 +108,19 @@ header {
       max-width: 100%;
       height:auto;
   }
+ .glyphicon {
+     font-size: 20px;
+ }
  
   /*My Skills*/
   .contact {
       text-align:center;
       padding-bottom:75px;
   }
-  .emailnumber{
-      color:#141414;
-      font-size:20px;
-  }
   .buttonPDF {
       text-align:center;
       padding-bottom:75px;
+      padding-top:50px;
   }
   .resume {
       background-color:#01feec;

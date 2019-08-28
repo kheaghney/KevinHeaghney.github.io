@@ -110,7 +110,14 @@ header {
 * {
     box-sizing: border-box;
   }
-  
+  #projects {
+    text-align:center;
+    font-family:arial;
+    text-decoration:none;
+  }
+  #gameLinks:hover {
+      text-decoration:none;
+  }
   .images {
       max-width: 100%;
       height:auto;
@@ -130,6 +137,10 @@ header {
  .head {
      height:200px;
  }
+ #image {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
   /*My Skills*/
   .contact {
       text-align:center;

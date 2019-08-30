@@ -53,9 +53,9 @@ li:hover {
 .navbar-brand {
     border: 1px solid #141414;
     border-radius: 50%;
-    color: #01feec !important;
+    color: #0d9fea !important;
     letter-spacing: 2px;
-    text-shadow: 2px 2px #141414;
+    text-shadow: 1px 1px #141414;
 }
 
 .navbar-brand:hover {
@@ -83,7 +83,7 @@ header h2 {
 }
 
 .first-letter {
-    color: #01feec;
+    color: #0d9fea;
     padding-left: 5px;
     font-size: 40px;
     text-shadow: 2px 2px #141414;
@@ -117,7 +117,7 @@ pre {
 
 /*Content Style*/
 .parallax {
-    background-image: url("image.jpg");
+    background-image: url("Globe.jpg");
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -191,7 +191,7 @@ h5 {
 }
 
 .resume {
-    background-color: #01feec;
+    background-color: #0d9fea;
     color: white;
     width: 25%;
     font-size: 20px;
@@ -207,7 +207,7 @@ h5 {
 }
 
 .w3-color {
-    background-color: #01feec;
+    background-color: #0d9fea;
 }
 
 .contain {

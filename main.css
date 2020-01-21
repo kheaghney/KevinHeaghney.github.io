@@ -116,6 +116,12 @@ pre {
 }
 
 /*Content Style*/
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
 .parallax {
     background-image: url("Globe.jpg");
     min-height: 300px;

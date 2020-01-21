@@ -90,8 +90,10 @@ header h2 {
 }
 
 .name {
-    text-align: center;
-    padding-top: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 .hr {

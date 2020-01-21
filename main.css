@@ -65,7 +65,7 @@ li:hover {
 /*header style*/
 header {
     position: relative;
-    height: 350px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -78,8 +78,11 @@ h2 {
 }
 
 header h2 {
-    position: relative;
-    color: #141414;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
 }
 
 .first-letter {
@@ -92,7 +95,7 @@ header h2 {
 
 .name{
     position: absolute;
-    top:50%;
+    top:20%;
     left:50%;
     transform: translate(-50%, -50%);
 }
@@ -105,9 +108,13 @@ header h2 {
 
 h4 {
     font-family: Arial;
-    text-align: center;
     line-height: 1.5;
     font-size: 14px;
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:75%;
 }
 
 pre {
@@ -119,10 +126,11 @@ pre {
 }
 
 /*Content Style*/
-.container {
+.container_a {
     position: relative;
     text-align: center;
     color:white;
+    width: fit-content;
 }
 
 .parallax {
@@ -328,6 +336,26 @@ h3 {
 
 
 /*media queries*/
+@media (max-width:550px) {
+    .h4 {
+        display:none;
+    }
+}
+@media (max-width:950px) {
+    .name {
+        top:50%;
+    }
+}
+@media (max-width:950px) {
+    .header h2 {
+        top:50%;
+    }
+}
+@media (max-width:950px) {
+    .h4 {
+        top:50%;
+    }
+}
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;

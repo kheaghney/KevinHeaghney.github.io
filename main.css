@@ -83,17 +83,21 @@ header h2 {
 }
 
 .first-letter {
-    color: #0d9fea;
+    /*color: #0d9fea;
     padding-left: 5px;
     font-size: 40px;
-    text-shadow: 2px 2px #141414;
-}
-
-.name {
+    text-shadow: 2px 2px #141414;*/
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+}
+
+.name {
+    /*position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);*/
 }
 
 .hr {

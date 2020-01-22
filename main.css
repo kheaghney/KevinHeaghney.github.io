@@ -118,13 +118,16 @@ h2 {
 }
 .img0 {
     position: absolute;
-    top:50%;
+    top:20%;
     left:80%;
     transform: translate(-50%, -50%);
     height:100px;
     width:auto;
     text-decoration:none;
-    padding-right:60px;
+ 
+}
+.img:hover {
+    text-decoration:none;
 }
 
 .name1 {

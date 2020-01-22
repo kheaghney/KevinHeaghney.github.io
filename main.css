@@ -65,8 +65,10 @@ li:hover {
 /*header style*/
 #animate {
     position:relative;
-    width:100px;
-    height:100px;
+    position: absolute;
+    top:60%;
+    left:10%;
+    transform: translate(-50%, -50%);
 }
 header {
     position: relative;

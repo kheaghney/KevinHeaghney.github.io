@@ -72,7 +72,7 @@ li:hover {
     transform: translate(-50%, -50%);
 }
 #animate {
-    position:relative;
+    position:absolute;
     top:60%;
     left:10%;
     transform: translate(-50%, -50%);

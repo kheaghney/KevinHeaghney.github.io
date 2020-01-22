@@ -159,6 +159,11 @@ pre {
     margin-right: auto;
     margin-left: auto;
 }
+#myImg {
+    max-width:300px;
+    height:auto;
+    border-radius:50%;
+}
 
 /*Content Style*/
 #github:after { /* this is the border */

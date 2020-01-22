@@ -146,6 +146,14 @@ pre {
 }
 
 /*Content Style*/
+.about:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 6em;
+    max-width:70%;
+    border-bottom: 0.3em solid #F3C577;
+    margin: 2em auto 0;
+}
 .container_a {
     position: relative;
     text-align: center;

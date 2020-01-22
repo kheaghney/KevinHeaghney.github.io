@@ -63,9 +63,23 @@ li:hover {
 }
 
 /*header style*/
+#jellyFish {
+    height:auto;
+    max-width:150px;
+    position:absolute;
+    top:60%;
+    left:10%;
+    transform: translate(-50%, -50%);
+}
+#animate {
+    position:absolute;
+    top:45%;
+    left:10%;
+    transform: translate(-50%, -50%);
+}
 header {
     position: relative;
-    height: 350px;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -75,11 +89,16 @@ h2 {
     font: 30px "Arial";
     text-align: center;
     letter-spacing: 3px;
+    text-shadow:2px 2px #141414;
 }
 
-header h2 {
-    position: relative;
-    color: #141414;
+
+.h21 {
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
 }
 
 .first-letter {
@@ -87,11 +106,23 @@ header h2 {
     padding-left: 5px;
     font-size: 40px;
     text-shadow: 2px 2px #141414;
+    
+}
+#img1 {
+    position: absolute;
+    top:50%;
+    left:90%;
+    transform: translate(-50%, -50%);
 }
 
+.name1 {
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
 .name {
-    text-align: center;
-    padding-top: 40px;
+    text-align:center;
 }
 
 .hr {
@@ -102,7 +133,6 @@ header h2 {
 
 h4 {
     font-family: Arial;
-    text-align: center;
     line-height: 1.5;
     font-size: 14px;
 }
@@ -116,10 +146,19 @@ pre {
 }
 
 /*Content Style*/
-.container {
+#github:after { /* this is the border */
+    content:"";
+    display:block;
+    width: 6em;
+    max-width:70%;
+    border-bottom: 0.3em solid #F3C577;
+    padding-top:5px;
+}
+.container_a {
     position: relative;
     text-align: center;
     color:white;
+    width: 100%;
 }
 
 .parallax {
@@ -170,9 +209,8 @@ h5 {
 }
 
 #image {
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    border-radius:50%;
+    padding:5px;
     box-shadow: 0px 0px 1px 1px;
     max-width:100%;
     margin-bottom:50px;
@@ -325,6 +363,29 @@ h3 {
 
 
 /*media queries*/
+@media (max-width:1000px) {
+    #animate{
+        display:none;
+    }
+}
+@media (max-width:600px) {
+    header {
+        height:auto;
+    }
+}
+
+
+@media (max-width:975px) {
+    .name1 {
+        top:10%;
+    }
+}
+@media (max-width:975px) {
+    .h21 {
+        top:25%;
+    }
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;

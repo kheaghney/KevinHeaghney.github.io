@@ -94,18 +94,21 @@ h2 {
     text-shadow: 2px 2px #141414;
     
 }
-.img1 {
+#img1 {
     position: absolute;
-    top:60%;
-    left:80%;
+    top:50%;
+    left:90%;
     transform: translate(-50%, -50%);
 }
 
-.name1{
+.name1 {
     position: absolute;
     top:20%;
     left:50%;
     transform: translate(-50%, -50%);
+}
+.name {
+    text-align:center;
 }
 
 .hr {

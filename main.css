@@ -146,7 +146,7 @@ pre {
 }
 
 /*Content Style*/
-.about:after { /* this is the border */
+.github:after { /* this is the border */
     content:"";
     display:block;
     width: 6em;

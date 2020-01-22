@@ -66,19 +66,17 @@ li:hover {
 #jellyFish {
     height:auto;
     max-width:150px;
-    position:relative;
-    
+    position:absolute;
     top:60%;
     left:10%;
     transform: translate(-50%, -50%);
 }
-/*#animate {
+#animate {
     position:relative;
-    position: absolute;
     top:60%;
     left:10%;
     transform: translate(-50%, -50%);
-}*/
+}
 header {
     position: relative;
     height: 500px;

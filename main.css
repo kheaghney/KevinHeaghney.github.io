@@ -75,9 +75,11 @@ h2 {
     font: 30px "Arial";
     text-align: center;
     letter-spacing: 3px;
+    text-shadow:2px 2px #141414;
 }
 
-header h2 {
+
+.h21 {
     position: absolute;
     top:25%;
     left:50%;
@@ -99,7 +101,7 @@ header h2 {
     transform: translate(-50%, -50%);
 }
 
-.name{
+.name1{
     position: absolute;
     top:20%;
     left:50%;
@@ -131,7 +133,7 @@ pre {
     position: relative;
     text-align: center;
     color:white;
-    width: fit-content;
+    width: 100%;
 }
 
 .parallax {
@@ -345,12 +347,12 @@ h3 {
 
 
 @media (max-width:975px) {
-    .name {
+    .name1 {
         top:10%;
     }
 }
 @media (max-width:975px) {
-    .header h2 {
+    .h21 {
         top:25%;
     }
 }

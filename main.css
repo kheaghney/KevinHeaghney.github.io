@@ -152,7 +152,7 @@ pre {
     width: 6em;
     max-width:70%;
     border-bottom: 0.3em solid #F3C577;
-    margin: 2em auto 0;
+    padding-top:5px;
 }
 .container_a {
     position: relative;

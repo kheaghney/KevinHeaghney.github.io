@@ -63,6 +63,11 @@ li:hover {
 }
 
 /*header style*/
+#animate {
+    position:relative;
+    width:100px;
+    height:100px;
+}
 header {
     position: relative;
     height: 500px;

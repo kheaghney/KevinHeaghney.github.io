@@ -48,6 +48,7 @@
   <div>
       <i class="fa fa-download" style="width:100px;height:100px;" id="img1"></i>
   </div>
+  <div id="animate"><img src="jellyfish.png" alt="jellyfish"></div>
 </div>
 </header>
 
@@ -144,7 +145,17 @@
       </div>
     </div>
     </div>
-
+    <script>
+$(document).ready(function(e) {
+  var width = "+=" + $(document).width();
+  $("#animate").animate({
+    left: width
+  }, 5000, function() {
+  $("animate").css("display", "none");
+  
+  });
+  });
+</script>
   </footer>
 </body>
 

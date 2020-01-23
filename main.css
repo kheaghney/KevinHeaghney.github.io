@@ -126,6 +126,9 @@ h2 {
     text-decoration:none;
  
 }
+.img0 {
+    text-decoration:none;
+}
 .img:hover {
     text-decoration:none;
 }
@@ -170,6 +173,12 @@ pre {
 }
 
 /*Content Style*/
+ul.skillList {
+    list-style-type:circle;
+}
+.readMore collapsed {
+    cursor:pointer;
+}
 .nameBio {
     text-align:left;
     padding-top:60px;
@@ -188,7 +197,14 @@ pre {
     margin-left:auto;
     display:table;
 }
-
+.container01 {
+    max-width:1000px;
+    height:300px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:30px;
+    padding-bottom:30px;
+}
 #github:after { /* this is the border */
     content:"";
     display:block;
@@ -408,7 +424,7 @@ h3 {
 /*media queries*/
 @media (max-width:992px) {
     .proj {
-        text-align:center;
+        text-align:center !important;
     }
     #github {
         text-align:center;

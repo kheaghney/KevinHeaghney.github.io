@@ -175,9 +175,10 @@ pre {
 /*Content Style*/
 ul.skillList {
     list-style-type:circle;
+    cursor:pointer !important;
 }
 .readMore collapsed {
-    cursor:pointer;
+    cursor:pointer !important;
 }
 .nameBio {
     text-align:left;
@@ -202,8 +203,8 @@ ul.skillList {
     height:300px;
     margin-right:auto;
     margin-left:auto;
-    padding-top:30px;
-    padding-bottom:30px;
+   margin-bottom:60px;
+   margin-top:60px;
 }
 #github:after { /* this is the border */
     content:"";
@@ -423,6 +424,9 @@ h3 {
 
 /*media queries*/
 @media (max-width:992px) {
+    #skills {
+        text-align:center;
+    }
     .proj {
         text-align:center !important;
     }

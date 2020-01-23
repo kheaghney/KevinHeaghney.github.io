@@ -164,6 +164,9 @@ pre {
     height:auto;
     border-radius:50%;
     border:1px solid;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
 }
 
 /*Content Style*/
@@ -402,6 +405,43 @@ h3 {
 
 
 /*media queries*/
+@media (max-width:992px) {
+    .proj {
+        text-align:center;
+    }
+    #github {
+        text-align:center;
+    }
+    #github:after {
+        text-align:center;
+    }
+    .nameBio {
+        text-align:center;
+
+    }
+    #bio {
+        text-align:center;
+    }
+}
+@media(max-width:850px) {
+    .container1 {
+        height:auto;
+    }
+    .container {
+        padding-top:5px;
+    }
+    #img1 {
+        height:50px;
+        top:70%
+    }
+    .img0{
+        height:55px;
+        font-size:12px;
+    }
+    .h21 {
+        font-size:15px;
+    }
+}
 @media (max-width:1000px) {
     #animate{
         display:none;

@@ -118,7 +118,7 @@ h2 {
 }
 .img0 {
     position: absolute;
-    top:20%;
+    top:15%;
     left:80%;
     transform: translate(-50%, -50%);
     height:100px;
@@ -163,9 +163,14 @@ pre {
     max-width:300px;
     height:auto;
     border-radius:50%;
+    border:1px solid;
 }
 
 /*Content Style*/
+.nameBio {
+    text-align:left;
+    padding-top:60px;
+}
 .container {
     padding-top:60px;
     padding-bottom:30px;
@@ -173,7 +178,11 @@ pre {
 .container1 {
     padding-top:30px;
     padding-bottom:30px;
-    background-color:#f5f5f5
+    background-color:#f5f5f5;
+    max-width:1000px;
+    height:470px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 #github:after { /* this is the border */

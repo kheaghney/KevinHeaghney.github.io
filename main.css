@@ -177,7 +177,7 @@ ul.skillList {
     list-style-type:circle;
     cursor:pointer !important;
 }
-.readMore collapsed {
+.readMore {
     cursor:pointer !important;
 }
 .nameBio {
@@ -425,7 +425,7 @@ h3 {
 /*media queries*/
 @media (max-width:992px) {
     #skills {
-        text-align:center;
+        text-align:center !important;
     }
     .proj {
         text-align:center !important;

@@ -363,6 +363,17 @@ h5 {
 }
 
 /*My Skills*/
+.hr01 {
+    border-top: 5px solid #0d9fea;
+    width:100px;
+    padding-bottom:60px;
+}
+.hr02 {
+    border-top: 5px solid #0d9fea;
+    width:50px;
+    padding-bottom:10px;
+
+}
 #arrow {
     padding-left:100px;
     padding-top:25px;
@@ -372,7 +383,6 @@ h5 {
 .contactHead {
     text-shadow: none !important; 
     text-align:center;
-    padding-bottom:60px;
 }
 #spanIcon {
     text-shadow: none !important;

@@ -559,7 +559,7 @@ h3 {
         padding-top:5px;
     }
     .popup {
-        left:10%;
+        left:14%;
         top:70%;
         height:50px;
     }
@@ -583,7 +583,7 @@ h3 {
 }
 @media (max-width:500px) {
     .container01 {
-        margin-bottom:90px;
+        margin-bottom:110px;
     }
 }
 @media (max-width:1000px) {

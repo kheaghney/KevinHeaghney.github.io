@@ -173,6 +173,9 @@ pre {
 }
 
 /*Content Style*/
+.skill {
+    text-align:left;
+}
 ul.skillList {
     list-style-type:circle;
     cursor:pointer !important;
@@ -424,6 +427,9 @@ h3 {
 
 /*media queries*/
 @media (max-width:992px) {
+    .skill {
+        text-align:center !important;
+    }
     #skills {
         text-align:center !important;
     }

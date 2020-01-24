@@ -363,6 +363,18 @@ h5 {
 }
 
 /*My Skills*/
+#arrow {
+    padding-left:100px;
+    padding-top:25px;
+    position:absolute;
+}
+.contactHead {
+    text-shadow: none !important; 
+    text-align:center;
+}
+.spanIcon {
+    text-shadow: none !important;
+}
 .contact {
     text-align: center;
     padding-bottom: 75px;
@@ -510,6 +522,11 @@ h3 {
 
 
 /*media queries*/
+@media (max-width:642px) {
+    .popup .popuptext {
+        background:#000000;
+    }
+}
 @media (max-width:1400px) {
     .popup {
         top:60%;

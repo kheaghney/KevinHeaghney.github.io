@@ -47,8 +47,10 @@
   <div>
       <a href="Resume_1.pdf" id="img1"><img src="downloadBtn.png" alt="download" id="img1"><br><p class="img0">Download Resume?</p></a>
   </div>
-
-  <div id="animate"><img src="jellyfish.png" alt="jellyfish" id="jellyFish"></div>
+  <div class="popup" onclick="myFunction()">Lets Connect!
+      <span class="popuptext" id="myPopup">CONTACT:<br>314.578.9129<br><a href="mailto:kheaghney1@gmail.com">Email</a></span>
+    </div>
+  
 </div>
 </header>
 
@@ -166,16 +168,12 @@
     </div>
     
     <script>
-$(document).ready(function(e) {
-  var width = "+=" + $(document).width();
-  $("#animate").animate({
-    left: width
-  }, 5000, function() {
-  $("animate").css("display", "none");
-  
-  });
-  });
-</script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
   </footer>
 </body>
 

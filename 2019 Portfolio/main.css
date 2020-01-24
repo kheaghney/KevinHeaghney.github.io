@@ -61,8 +61,89 @@ li:hover {
 .navbar-brand:hover {
     color: #b3b3b3 !important;
 }
+/*POPUP...................*/
+.connect {
+    padding:10px;
+    margin-top:16px;
+}
 
-/*header style*/
+.popup {
+    font-weight:bold;
+    color: black;
+    border: 2px solid #000000;
+    position: absolute;
+    display:inline-block;
+    top:50%;
+    left:6%;
+    transform: translate(-50%, -50%);
+    height:85px;
+    width:85px;
+    border-radius:50%
+    }
+  
+  .popup:hover {
+    background-color: #000000;
+    color: white;
+  }
+  .popup {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 70%;
+    left: 225%;
+    margin-left: -80px;
+    background: rgba(198, 198, 198, 0.3);
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+/*header style......................*/
 #jellyFish {
     height:auto;
     max-width:150px;
@@ -111,8 +192,28 @@ h2 {
 #img1 {
     position: absolute;
     top:50%;
-    left:90%;
+    left:94%;
     transform: translate(-50%, -50%);
+    height:100px;
+    width:auto;
+}
+#img1:hover {
+    opacity: .8;
+}
+.img0 {
+    position: absolute;
+    top:15%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    height:100px;
+    width:auto;
+    text-decoration:none;
+    color:#ffffff; 
+}
+
+.img:hover {
+    text-decoration:none;
+    color:#ffffff;
 }
 
 .name1 {
@@ -144,14 +245,59 @@ pre {
     margin-right: auto;
     margin-left: auto;
 }
+#myImg {
+    max-width:300px;
+    height:auto;
+    border-radius:50%;
+    border:1px solid;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
 
 /*Content Style*/
+.skill {
+    text-align:left;
+}
+ul.skillList {
+    list-style-type:circle;
+    cursor:pointer !important;
+}
+.readMore {
+    cursor:pointer !important;
+}
+.nameBio {
+    text-align:left;
+    padding-top:60px;
+}
+.container {
+    padding-top:60px;
+    padding-bottom:30px;
+}
+.container1 {
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:#f5f5f5;
+    max-width:1000px;
+    height:470px;
+    margin-right:auto;
+    margin-left:auto;
+    display:table;
+}
+.container01 {
+    max-width:1000px;
+    height:300px;
+    margin-right:auto;
+    margin-left:auto;
+   margin-bottom:30px;
+   margin-top:60px;
+}
 #github:after { /* this is the border */
     content:"";
     display:block;
     width: 6em;
     max-width:70%;
-    border-bottom: 0.3em solid #F3C577;
+    border-bottom: 0.3em solid #0d9fea;
     padding-top:5px;
 }
 .container_a {
@@ -217,9 +363,24 @@ h5 {
 }
 
 /*My Skills*/
+#arrow {
+    padding-left:100px;
+    padding-top:25px;
+    position:absolute;
+    color:#000000
+}
+.contactHead {
+    text-shadow: none !important; 
+    text-align:center;
+    padding-bottom:60px;
+}
+#spanIcon {
+    text-shadow: none !important;
+}
 .contact {
     text-align: center;
     padding-bottom: 75px;
+    padding-top:75px;
 }
 
 .buttonPDF {
@@ -363,6 +524,96 @@ h3 {
 
 
 /*media queries*/
+@media (max-width:642px) {
+    .popup .popuptext {
+        background:#000000;
+    }
+}
+@media (max-width:1400px) {
+    .popup {
+        top:60%;
+    }
+    #img1 {
+        top:60%;
+    }
+}
+@media (max-width:1200px) {
+    .popup {
+        top:70%;
+    }
+    #img1 {
+        top:70%;
+    }
+}
+@media (max-width:992px) {
+    ul.skillList {
+        padding-top:20px;
+    }
+    .skill {
+        text-align:center !important;
+    }
+    #skills {
+        text-align:center !important;
+    }
+    .proj {
+        text-align:center !important;
+    }
+    #github {
+        text-align:center;
+    }
+    #github:after {
+        display:none;
+    }
+    .nameBio {
+        text-align:center;
+
+    }
+    #bio {
+        text-align:center;
+    }
+    #arrow {
+        padding-left:50px;
+    }
+}
+
+@media(max-width:850px) {
+    header {
+        height:auto;
+    }
+    .container1 {
+        height:auto;
+    }
+    .container {
+        padding-top:5px;
+    }
+    .popup {
+        left:14%;
+        top:70%;
+        height:50px;
+    }
+    .connect {
+        padding-top:0px;
+        margin:1px;
+        margin-top:11px;
+    }
+    #img1 {
+        height:50px;
+        top:70%;
+        left:90%; 
+    }
+    .img0{
+        height:55px;
+        font-size:12px;
+    }
+    .h21 {
+        font-size:15px;
+    }
+}
+@media (max-width:500px) {
+    .container01 {
+        margin-bottom:110px;
+    }
+}
 @media (max-width:1000px) {
     #animate{
         display:none;

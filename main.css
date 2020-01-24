@@ -62,25 +62,30 @@ li:hover {
     color: #b3b3b3 !important;
 }
 /*POPUP...................*/
+.connect {
+    padding:10px;
+    margin-top:22px;
+}
 
 .popup {
-    background-color: white;
+    font-weight:bold;
     color: black;
-    border: 2px solid #555555;
+    border: 2px solid #000000;
     position: absolute;
+    display:inline-block;
     top:50%;
-    left:10%;
+    left:6%;
     transform: translate(-50%, -50%);
-    height:100px;
+    height:50px;
     width:auto;
     }
   
   .popup:hover {
-    background-color: #555555;
+    background-color: #000000;
     color: white;
   }
   .popup {
-    position: relative;
+    position: absolute;
     display: inline-block;
     cursor: pointer;
     -webkit-user-select: none;
@@ -185,7 +190,7 @@ h2 {
 #img1 {
     position: absolute;
     top:50%;
-    left:90%;
+    left:94%;
     transform: translate(-50%, -50%);
     height:100px;
     width:auto;
@@ -500,7 +505,26 @@ h3 {
 
 
 /*media queries*/
+@media (max-width:1400px) {
+    .popup {
+        top:60%;
+    }
+    #img1 {
+        top:60%;
+    }
+}
+@media (max-width:1200px) {
+    .popup {
+        top:70%;
+    }
+    #img1 {
+        top:70%;
+    }
+}
 @media (max-width:992px) {
+    ul.skillList {
+        padding-top:20px;
+    }
     .skill {
         text-align:center !important;
     }
@@ -534,9 +558,20 @@ h3 {
     .container {
         padding-top:5px;
     }
+    .popup {
+        left:10%;
+        top:70%;
+        height:50px;
+    }
+    .connect {
+        padding-top:0px;
+        margin:1px;
+        margin-top:11px;
+    }
     #img1 {
         height:50px;
-        top:70%
+        top:70%;
+        left:90%; 
     }
     .img0{
         height:55px;
@@ -544,6 +579,11 @@ h3 {
     }
     .h21 {
         font-size:15px;
+    }
+}
+@media (max-width:500px) {
+    .container01 {
+        margin-bottom:90px;
     }
 }
 @media (max-width:1000px) {

@@ -64,7 +64,7 @@ li:hover {
 /*POPUP...................*/
 .connect {
     padding:10px;
-    margin-top:22px;
+    margin-top:16px;
 }
 
 .popup {
@@ -76,8 +76,9 @@ li:hover {
     top:50%;
     left:6%;
     transform: translate(-50%, -50%);
-    height:50px;
-    width:auto;
+    height:85px;
+    width:85px;
+    border-radius:50%
     }
   
   .popup:hover {
@@ -195,6 +196,9 @@ h2 {
     height:100px;
     width:auto;
 }
+#img1:hover {
+    opacity: .8;
+}
 .img0 {
     position: absolute;
     top:15%;
@@ -203,13 +207,12 @@ h2 {
     height:100px;
     width:auto;
     text-decoration:none;
- 
+    color:#ffffff; 
 }
-.img0 {
-    text-decoration:none;
-}
+
 .img:hover {
     text-decoration:none;
+    color:#ffffff;
 }
 
 .name1 {
@@ -285,7 +288,7 @@ ul.skillList {
     height:300px;
     margin-right:auto;
     margin-left:auto;
-   margin-bottom:60px;
+   margin-bottom:30px;
    margin-top:60px;
 }
 #github:after { /* this is the border */

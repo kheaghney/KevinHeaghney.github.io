@@ -65,7 +65,7 @@
   <section class="github">
   <div class="col-md-6 col-sm-12" id="github" style="padding:30px">   
     <h3 class="proj" style="text-align:left">Projects</h3>
-    <w3-text-black>Most of the projects I have made are uploaded on Github. If you would like to view the source code or play one of the games I have made please click the Github link below. </w3-text-black><br>
+    <w3-text-black>Most of the projects I have made are uploaded on Github. If you would like to view the source code or play one of the games I have, please visit the Github link below. </w3-text-black><br>
     <a href="https://github.com/kheaghney"><img src="githubLogo1.png" style="width:90px;"></a> 
   </div>
   </section>
@@ -101,7 +101,7 @@
 <div class="container01" style="max-width:1000px;">
 <div class="col-md-6 col-md-12" id="skills" style="text-align:left;">
   <h3 class="skill" style="text-align:left">Skills</h3><br> 
-  <w3-text-black>Everyday I'm learning and pushing myself to do more, but here are some of my current skills.  </w3-text-black>
+  <w3-text-black>Everyday I push myself to do more, here are some of my current skills.  </w3-text-black>
 </div>
 <div class="col-md-3 col-sm-6 col-xs-6">
   <ul class="skillList">
@@ -171,6 +171,31 @@
           var popup = document.getElementById("myPopup");
           popup.classList.toggle("show");
         }
+        </script>
+        <script>
+            $(document).ready(function() {
+           
+            /* Every time the window is scrolled ... */
+            $(window).scroll( function(){
+           
+                /* Check the location of each desired element */
+                $('.container01').each( function(i){
+                   
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+                   
+                    /* If the object is completely visible in the window, fade it it */
+                    if( bottom_of_window > bottom_of_object ){
+                       
+                        $(this).animate({'opacity':'1'},500);
+                           
+                    }
+                   
+                });
+           
+            });
+           
+        });
         </script>
   </footer>
 </body>

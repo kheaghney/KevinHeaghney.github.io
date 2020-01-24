@@ -367,12 +367,14 @@ h5 {
     padding-left:100px;
     padding-top:25px;
     position:absolute;
+    color:#000000
 }
 .contactHead {
     text-shadow: none !important; 
     text-align:center;
+    padding-bottom:60px;
 }
-.spanIcon {
+#spanIcon {
     text-shadow: none !important;
 }
 .contact {
@@ -569,7 +571,11 @@ h3 {
     #bio {
         text-align:center;
     }
+    #arrow {
+        padding-left:50px;
+    }
 }
+
 @media(max-width:850px) {
     header {
         height:auto;

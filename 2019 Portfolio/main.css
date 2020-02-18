@@ -286,7 +286,7 @@ ul.skillList {
 }
 .container01 {
     max-width:1000px;
-    height:300px;
+    height:350px;
     margin-right:auto;
     margin-left:auto;
    margin-bottom:30px;
@@ -363,6 +363,19 @@ h5 {
 }
 
 /*My Skills*/
+.hr01 {
+    border-top: 5px solid #0d9fea;
+    width:100px;
+    padding-bottom:60px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.hr02 {
+    border-top: 5px solid #0d9fea;
+    width:50px;
+    padding-bottom:10px;
+
+}
 #arrow {
     padding-left:100px;
     padding-top:25px;
@@ -372,7 +385,6 @@ h5 {
 .contactHead {
     text-shadow: none !important; 
     text-align:center;
-    padding-bottom:60px;
 }
 #spanIcon {
     text-shadow: none !important;
@@ -546,6 +558,10 @@ h3 {
     }
 }
 @media (max-width:992px) {
+    .hr02 {
+        margin-right:auto;
+        margin-left:auto;
+    }
     ul.skillList {
         padding-top:20px;
     }

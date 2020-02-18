@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="AboutMe.html">About Me</a></li>
-        <li><a href="https://github.com/kheaghney">Projects</a></li>
+        <!--<li><a href="https://github.com/kheaghney">Projects</a></li>-->
         <li><a href="ContactInfo.html">Contact Info</a></li>
       </ul>
 
@@ -45,7 +45,7 @@
   <h2 class="h21"> Front End Developer/Designer</h2>
   <br>
   <div>
-      <a href="Resume_1.pdf" id="img1"><img src="downloadBtn.png" alt="download" id="img1"><br><p class="img0">Download Resume?</p></a>
+      <a href="Kevin_Heaghney.pdf" id="img1"><img src="downloadBtn.png" alt="download" id="img1"><br><p class="img0">Download Resume?</p></a>
   </div>
   <div class="popup" onclick="myFunction()"><p class="connect">Contact</p>
       <span class="popuptext" id="myPopup">CONTACT:<br>314.578.9129<br><a href="mailto:kheaghney1@gmail.com">Email</a></span>
@@ -65,14 +65,14 @@
   <section class="github">
   <div class="col-md-6 col-sm-12" id="github" style="padding:30px">   
     <h3 class="proj" style="text-align:left">Projects</h3>
-    <w3-text-black>Most of the projects I have made are uploaded on Github. If you would like to view the source code or play one of the games I have, please visit the Github link below. </w3-text-black><br>
+    <w3-text-black>Most of the projects I have made are uploaded on Github. If you would like to view the source code, please visit the Github link below. </w3-text-black><br>
     <a href="https://github.com/kheaghney"><img src="githubLogo1.png" style="width:90px;"></a> 
   </div>
   </section>
 
   <br>
   <div class="col-md-3 col-xs-6" id="projects">
-    <!--<a href="fend-project-memory-game-master/memoryGame.html" id="gameLinks">--><img src="Memory Game.jpg"
+    <!--<a href="index01.html" id="gameLinks">--><img src="Memory Game.jpg"
       id="image"></a>
   </div>
   
@@ -90,17 +90,20 @@
   <div class="col-md-6 col-sm-12" id="bio">
     <h3 class="nameBio">Kevin Heaghney</h3><br>
     <p><strong>Front End Developer/Designer</strong></p><br>
-      <w3-text-black>Started my journey 4 years ago in Web Development/Design and I continue everyday to perfect my craft.<p class="readMmore" data-toggle="collapse" data-target="#demo"><i class="fa fa-level-down" id="arrow"></i><strong><br>Read More</strong></p></w3-text-black>
+      <w3-text-black>I started my journey 4 years ago in Web Development/Design and I continue to perfect my craft everyday.
+        <p class="readMmore" data-toggle="collapse" data-target="#demo"><i class="fa fa-level-down" id="arrow"></i><strong><br>Read More</strong></p></w3-text-black>
       <div id="demo" class="collapse">
-          Before taking this leap of faith I was working in Construction and blue collar jobs for many years. Happiness with what I was doing was non existent so I decided enough is enough. I've always felt I had more to offer, but at the time didn't know what that was. My creativeness, eagerness to learn and curiosity would lead me down a path that was somewhat foreign to me.<br><br>
-          I've since invested everything I have into learning and developing my skills in Web Development/Design. It was the greatest decision I've ever made and has allowed me to find my true passion. I've completed courses through W3Schools and Udacity, where I received my Front End Development Nanodegree. My projects consist of a memory game, arcade game, clock, calculator and a map. I have working experience creating eCommerce Bookstores for a number of Colleges and Universities. I've also created an eCommerce site for a startup toffee company.<br><br>
-          My journey is ongoing but I hope to find a position to utilize my talent and continue my growth. What sets me apart from the rest is how I managed to get here and I hope to use my drive and passion wherever I work.
+        After working Construction and blue collar jobs for many years, I realized I had more to offer. But, at the time didn't know what that was. Ultimately, my creativity, eagerness to learn and curiosity lead me into the Web Development/Design technology field.<br><br>
+
+        I've invested everything I have into learning and developing my skills. And, it was the greatest decision I've ever made, and has allowed me to find my true passion. I've completed courses through W3Schools and Udacity, where I received my Front End Development Nanodegree. I have working experience creating eCommerce Bookstores for a number of Colleges and Universities, an eCommerce site for a startup toffee company and front end web design.<br><br>
+        
+        My journey is ongoing. But, I hope to find a position to utilize my talent and continue my professional growth. What sets me apart is the journey I took get here and the desire to use that same drive and passion to achieve success wherever I work.
       </div>
   </div>
 </div>
 <div class="container01" style="max-width:1000px;">
 <div class="col-md-6 col-md-12" id="skills" style="text-align:left;">
-  <h3 class="skill" style="text-align:left">Skills</h3><br> 
+  <h3 class="skill" style="text-align:left">Skills</h3><hr class="hr02"><br> 
   <w3-text-black>Everyday I push myself to do more, here are some of my current skills.  </w3-text-black>
 </div>
 <div class="col-md-3 col-sm-6 col-xs-6">
@@ -144,7 +147,7 @@
       <div class="col-md-4 col-xs-12">
         <p class="socialMedia">
           <a href="AboutMe.html" class="btmLinks">About Me</a>
-          <a href="https://github.com/kheaghney" class="btmLinks">Projects</a>
+          <!--<a href="https://github.com/kheaghney" class="btmLinks">Projects</a>-->
           <a href="ContactInfo.html" class="btmLink">Contact Info</a>
           <br>
           <a href="https://www.facebook.com/kevin.heaghney" class="fa fa-facebook"></a>
@@ -179,7 +182,7 @@
             $(window).scroll( function(){
            
                 /* Check the location of each desired element */
-                $('.container01').each( function(i){
+                $('.skillList').each( function(i){
                    
                     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
                     var bottom_of_window = $(window).scrollTop() + $(window).height();

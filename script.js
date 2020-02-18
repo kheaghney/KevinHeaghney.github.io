@@ -1,3 +1,4 @@
+//Script for large first letters 
 window.onload = function(){
     var elements = document.getElementsByClassName("each-word")
     for (var i=0; i<elements.length; i++){
